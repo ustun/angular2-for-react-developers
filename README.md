@@ -29,8 +29,8 @@ export class AppComponent extends ReactComponent {
         var {title, myHero} = this.state;
         var {name} = this.props;
         return <div>
-        <h1>{{title}}</h1>    <h2>My favorite hero is: {{myHero}}</h2> 
-        <h2>My name is: {{ name}} </h2>
+        <h1>{title}</h1>    <h2>My favorite hero is: {myHero}</h2> 
+        <h2>My name is: { name} </h2>
         </div>
     }
 }
